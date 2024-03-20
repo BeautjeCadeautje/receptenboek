@@ -6,7 +6,7 @@
 </head>
 <body>
     <div class="top-right-image">
-        <img src="" alt="Top Right Image">
+        <img src="c:\Users\isabe\receptenboek\images\Wales_national_football_team_logo.svg.png" alt="Top Right Image">
     </div>
 
 
