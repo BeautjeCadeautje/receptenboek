@@ -32,8 +32,8 @@ $result = mysqli_query($conn, $sql);
         <?php while ($gerecht = mysqli_fetch_assoc($result)) : ?>
             <div class="box">
                 <h1><?php echo $gerecht["naam_gerecht"] ?></h1>
-                <img src="" alt="gerecht" style=" width:300px;height:400px;"></a><br>
-                <a href="https://www.ea.com/games/the-sims/the-sims-4/store/addons/the-sims-4-high-school-years" style="color:black;">RECEPT</a>
+                <img src="images/<?php echo $gerecht['afbeelding']?>" alt=""> <br>
+                <a href="">RECEPT</a>
             </div>
         <?php endwhile; ?>
     </div>
