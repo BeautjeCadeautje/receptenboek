@@ -32,8 +32,8 @@ $result = mysqli_query($conn, $sql);
         <?php while ($gerecht = mysqli_fetch_assoc($result)) : ?>
             <div class="box">
                 <h1><?php echo $gerecht["naam_gerecht"] ?></h1>
-                <img src="images/<?php echo $gerecht['afbeelding']?>" alt=""> <br>
-                <a href="">RECEPT</a>
+                <img src="images/<?php echo $gerecht['afbeelding'] ?>" alt=""> <br>
+                <a href="recept.php?id=1">RECEPT</a>
             </div>
         <?php endwhile; ?>
     </div>
@@ -48,4 +48,5 @@ $result = mysqli_query($conn, $sql);
         <a href="https://www.youtube.com/" target="_blank" class="social-link"><i class="fab fa-youtube"></i></a>
     </div>
 </footer>
+
 </html>
