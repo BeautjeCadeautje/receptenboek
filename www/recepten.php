@@ -20,7 +20,7 @@ $result = mysqli_query($conn, $sql);
 
 <body>
     <div class="top-right-image">
-        <img src="www/Wales_national_football_team_logo.svg.png">
+        <img src="images/Wales_national_football_team_logo.svg.png" alt="Top Right Image">
     </div>
 
     <div class="top">
