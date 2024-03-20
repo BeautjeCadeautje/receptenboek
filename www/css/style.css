@@ -8,7 +8,7 @@ a{
     text-decoration: none;
 }
 html{
-    background-color:powderblue;
+    background-color:beige;
 }
 h1{
     text-align: center;
@@ -31,7 +31,7 @@ p{
    align-items: left;
 }
 .container {
-    border: 5px solid cadetblue;
+    border: 5px solid red;
     text-align: center;
 }
 
@@ -40,7 +40,7 @@ p{
     display: inline-block;
     width: 300px; 
     height: 450px; 
-    background-color: lightskyblue; 
+    background-color: green; 
     margin: 90px; 
    
 }
@@ -52,16 +52,16 @@ p{
     border: 5px solid red;
     padding: 20px;  
     margin: 90px; 
-    background-color: lightskyblue
+    background-color: beige
 }
 .top{
     display: inline-block;
-    width: 1520px; 
+    width: 1687px; 
     height: 100px; 
-    border: 5px solid cadetblue;
+    border: 5px solid red;
     padding: 20px;  
     margin: 100;
-    background-color: lightskyblue;
+    background-color: green;
 }
 .image{
     display: inline-block;
@@ -71,20 +71,20 @@ p{
     z-index: 1;
     width: 300px; 
     height: 300px; 
-    border: 5px solid green;
+    border: 5px solid red;
     padding: 20px;  
     margin: 90px; 
-    background-color: orange
+    background-color: green
 }
 
 .bottom{
     display: inline-block;
-    width: 1520px; 
+    width: 1687px; 
     height: 100px; 
-    border: 5px solid  cadetblue;
+    border: 5px solid  red;
     padding: 20px;  
     margin: 100;
-    background-color: lightskyblue;
+    background-color: green;
 }
 .social-link {
     font-size: 24px;

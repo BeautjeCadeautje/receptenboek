@@ -5,7 +5,7 @@
     <title>RECEPTENBOEK</title>
 </head>
 <body>
-    <div class="top-right-image">
+<div class="top-right-image">
         <img src="c:\Users\isabe\receptenboek\images\Wales_national_football_team_logo.svg.png" alt="Top Right Image">
     </div>
 
