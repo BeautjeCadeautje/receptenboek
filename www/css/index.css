@@ -3,7 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+button {
+   
+    background-color: darkgray; /* Wijzig de achtergrondkleur naar groen */
+    padding: 0; /* Verwijder padding om de button compacter te maken */
+}
 
+/* Stijl voor de link binnen de button */
+button a {
+    text-decoration: none; /* Verwijder onderstreping van de link */
+    color: black; /* Behoud zwarte kleur voor de tekst */
+    display: inline-block; /* Zorg ervoor dat de link inline wordt weergegeven binnen de button */
+    padding: 5px 10px; /* Voeg padding toe aan de link om ruimte te maken rond de tekst */
+}
 .background-image {
     background-image: url("path/to/background-image.jpg"); /* Vervang "path/to/background-image.jpg" door het pad naar je achtergrondafbeelding */
     background-size: cover;
@@ -87,6 +99,37 @@
 }
 
 .top-right-image img {
-   width: 1700px;
+   width: 1683px;
    height: 915px;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar-brand a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+    color: green;
 }
