@@ -1,3 +1,20 @@
+<?php
+
+$sql = "SELECT COUNT(*) AS total_recipes FROM welsh_eten";; // Haal de eerste twee gerechten uit de database
+require 'database.php';
+$result = $conn->query($sql);
+
+
+if ($result->num_rows > 0) {
+    // Het aantal recepten ophalen
+    $row = $result->fetch_assoc();
+    $total_recipes = $row["total_recipes"];
+} else {
+    $total_recipes = 0;
+}
+
+$conn->close();
+?>
 <!DOCTYPE html>
 <html>
 
@@ -11,7 +28,8 @@
     <header>
         <nav class="navbar">
             <div class="navbar-brand">
-                <a href="#">WELKOM!</a>
+                <a href="#">WELKOM!</a><br>
+                <span style="color: white;">Aantal recepten: <?php echo $total_recipes; ?></span><br>
             </div>
             <div class="navbar-links">
                 <a href="file:///C:/Users/isabe/OneDrive/Bureaublad/school%20blok3/front-end/extra%20page.html">RECEPTEN</a>
